@@ -1,0 +1,19 @@
+{
+  "inputDir": "./icons-src",
+  "outputDir": "./public/icons",
+  "fontTypes": ["woff2", "woff", "ttf"],
+  "assetTypes": ["css", "html", "json"],
+  "name": "my-icons",
+  "prefix": "icon",
+  "normalize": false,
+  "round": 10e3,
+  "descent": 0,
+  "fontHeight": 1000,
+  "formatOptions": {
+    "svg": {
+      "fixedWidth": true,
+      "centerHorizontally": true,
+      "centerVertically": true
+    }
+  }
+}
