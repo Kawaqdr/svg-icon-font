@@ -1,0 +1,17 @@
+{
+  "name": "svg-icon-font",
+  "version": "1.0.0",
+  "description": "Normalize SVG icons and build an icon font with fantasticon. Ready to deploy on Vercel.",
+  "scripts": {
+    "normalize": "node scripts/normalize-svgs.js --dir ./icons-src --size 24",
+    "build:font": "fantasticon",
+    "build": "npm run normalize && npm run build:font"
+  },
+  "dependencies": {
+    "svgpath": "^2.6.0"
+  },
+  "devDependencies": {
+    "fantasticon": "^1.2.0"
+  },
+  "license": "MIT"
+}
